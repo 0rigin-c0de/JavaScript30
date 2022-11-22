@@ -1,0 +1,33 @@
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: blueviolet;
+  }
+
+  .two {
+    background: yellowgreen;
+  }
+
+  .three {
+    background: lightcoral;
+  }
+  button{
+    background-color: blue;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 15px;
+    margin-left:400px;
+    height: 30px;
+    width:100px;
+  }
