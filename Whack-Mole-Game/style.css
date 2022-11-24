@@ -24,12 +24,14 @@ html {
   
   .score {
     background: rgba(255,255,255,0.2);
-    padding: 0 3rem;
+    padding: 0 0.9rem;
     line-height: 1;
     border-radius: 1rem;
   }
   
   .game {
+    padding: auto;
+    margin: auto;
     width: 600px;
     height: 400px;
     display: flex;
@@ -56,7 +58,7 @@ html {
   }
   
   .mole {
-    background: url('images.png') bottom center no-repeat;
+    background: url('mole.png') bottom center no-repeat;
     background-size: 60%;
     position: absolute;
     top: 100%;
